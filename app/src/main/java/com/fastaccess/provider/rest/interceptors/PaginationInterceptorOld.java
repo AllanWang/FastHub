@@ -13,7 +13,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 
-public class PaginationInterceptor implements Interceptor {
+public class PaginationInterceptorOld implements Interceptor {
 
     @Override public Response intercept(@NonNull Chain chain) throws IOException {
         Request request = chain.request();
